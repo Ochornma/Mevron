@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8220533F277CAED200019724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8220533E277CAED200019724 /* AppDelegate.swift */; };
+		82205341277CAED200019724 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82205340277CAED200019724 /* SceneDelegate.swift */; };
+		82205343277CAED200019724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82205342277CAED200019724 /* ViewController.swift */; };
+		82205346277CAED200019724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82205344277CAED200019724 /* Main.storyboard */; };
+		82205349277CAED200019724 /* Mevron_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82205347277CAED200019724 /* Mevron_Test.xcdatamodeld */; };
+		8220534B277CAED500019724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8220534A277CAED500019724 /* Assets.xcassets */; };
+		8220534E277CAED500019724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8220534C277CAED500019724 /* LaunchScreen.storyboard */; };
+		82205359277CAED500019724 /* Mevron_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82205358277CAED500019724 /* Mevron_TestTests.swift */; };
+		82205363277CAED500019724 /* Mevron_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82205362277CAED500019724 /* Mevron_TestUITests.swift */; };
+		82205365277CAED500019724 /* Mevron_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82205364277CAED500019724 /* Mevron_TestUITestsLaunchTests.swift */; };
+		8220537D277CB05600019724 /* SpaceGrotesk-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82205378277CB05600019724 /* SpaceGrotesk-Light.ttf */; };
+		8220537E277CB05600019724 /* SpaceGrotesk-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82205379277CB05600019724 /* SpaceGrotesk-Bold.ttf */; };
+		8220537F277CB05600019724 /* SpaceGrotesk-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8220537A277CB05600019724 /* SpaceGrotesk-Medium.ttf */; };
+		82205380277CB05600019724 /* SpaceGrotesk-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8220537B277CB05600019724 /* SpaceGrotesk-Regular.ttf */; };
+		82205381277CB05600019724 /* SpaceGrotesk-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8220537C277CB05600019724 /* SpaceGrotesk-SemiBold.ttf */; };
+		82205385277CB58600019724 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82205384277CB58600019724 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82205355277CAED500019724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82205333277CAED200019724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8220533A277CAED200019724;
+			remoteInfo = "Mevron Test";
+		};
+		8220535F277CAED500019724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82205333277CAED200019724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8220533A277CAED200019724;
+			remoteInfo = "Mevron Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8220533B277CAED200019724 /* Mevron Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mevron Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8220533E277CAED200019724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82205340277CAED200019724 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		82205342277CAED200019724 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82205345277CAED200019724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82205348277CAED200019724 /* Mevron_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mevron_Test.xcdatamodel; sourceTree = "<group>"; };
+		8220534A277CAED500019724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8220534D277CAED500019724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8220534F277CAED500019724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82205354277CAED500019724 /* Mevron TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mevron TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82205358277CAED500019724 /* Mevron_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mevron_TestTests.swift; sourceTree = "<group>"; };
+		8220535E277CAED500019724 /* Mevron TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mevron TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82205362277CAED500019724 /* Mevron_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mevron_TestUITests.swift; sourceTree = "<group>"; };
+		82205364277CAED500019724 /* Mevron_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mevron_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		82205378277CB05600019724 /* SpaceGrotesk-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Light.ttf"; sourceTree = "<group>"; };
+		82205379277CB05600019724 /* SpaceGrotesk-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Bold.ttf"; sourceTree = "<group>"; };
+		8220537A277CB05600019724 /* SpaceGrotesk-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Medium.ttf"; sourceTree = "<group>"; };
+		8220537B277CB05600019724 /* SpaceGrotesk-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Regular.ttf"; sourceTree = "<group>"; };
+		8220537C277CB05600019724 /* SpaceGrotesk-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-SemiBold.ttf"; sourceTree = "<group>"; };
+		82205384277CB58600019724 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82205338277CAED200019724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82205351277CAED500019724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8220535B277CAED500019724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82205332277CAED200019724 = {
+			isa = PBXGroup;
+			children = (
+				8220533D277CAED200019724 /* Mevron Test */,
+				82205357277CAED500019724 /* Mevron TestTests */,
+				82205361277CAED500019724 /* Mevron TestUITests */,
+				8220533C277CAED200019724 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8220533C277CAED200019724 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8220533B277CAED200019724 /* Mevron Test.app */,
+				82205354277CAED500019724 /* Mevron TestTests.xctest */,
+				8220535E277CAED500019724 /* Mevron TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8220533D277CAED200019724 /* Mevron Test */ = {
+			isa = PBXGroup;
+			children = (
+				82205383277CB56000019724 /* Util */,
+				82205377277CB03B00019724 /* Font */,
+				8220533E277CAED200019724 /* AppDelegate.swift */,
+				82205340277CAED200019724 /* SceneDelegate.swift */,
+				82205342277CAED200019724 /* ViewController.swift */,
+				82205344277CAED200019724 /* Main.storyboard */,
+				8220534A277CAED500019724 /* Assets.xcassets */,
+				8220534C277CAED500019724 /* LaunchScreen.storyboard */,
+				8220534F277CAED500019724 /* Info.plist */,
+				82205347277CAED200019724 /* Mevron_Test.xcdatamodeld */,
+			);
+			path = "Mevron Test";
+			sourceTree = "<group>";
+		};
+		82205357277CAED500019724 /* Mevron TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				82205358277CAED500019724 /* Mevron_TestTests.swift */,
+			);
+			path = "Mevron TestTests";
+			sourceTree = "<group>";
+		};
+		82205361277CAED500019724 /* Mevron TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82205362277CAED500019724 /* Mevron_TestUITests.swift */,
+				82205364277CAED500019724 /* Mevron_TestUITestsLaunchTests.swift */,
+			);
+			path = "Mevron TestUITests";
+			sourceTree = "<group>";
+		};
+		82205377277CB03B00019724 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				82205379277CB05600019724 /* SpaceGrotesk-Bold.ttf */,
+				82205378277CB05600019724 /* SpaceGrotesk-Light.ttf */,
+				8220537A277CB05600019724 /* SpaceGrotesk-Medium.ttf */,
+				8220537B277CB05600019724 /* SpaceGrotesk-Regular.ttf */,
+				8220537C277CB05600019724 /* SpaceGrotesk-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		82205383277CB56000019724 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				82205384277CB58600019724 /* Extensions.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8220533A277CAED200019724 /* Mevron Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82205368277CAED500019724 /* Build configuration list for PBXNativeTarget "Mevron Test" */;
+			buildPhases = (
+				82205337277CAED200019724 /* Sources */,
+				82205338277CAED200019724 /* Frameworks */,
+				82205339277CAED200019724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mevron Test";
+			productName = "Mevron Test";
+			productReference = 8220533B277CAED200019724 /* Mevron Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82205353277CAED500019724 /* Mevron TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8220536B277CAED500019724 /* Build configuration list for PBXNativeTarget "Mevron TestTests" */;
+			buildPhases = (
+				82205350277CAED500019724 /* Sources */,
+				82205351277CAED500019724 /* Frameworks */,
+				82205352277CAED500019724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82205356277CAED500019724 /* PBXTargetDependency */,
+			);
+			name = "Mevron TestTests";
+			productName = "Mevron TestTests";
+			productReference = 82205354277CAED500019724 /* Mevron TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8220535D277CAED500019724 /* Mevron TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8220536E277CAED500019724 /* Build configuration list for PBXNativeTarget "Mevron TestUITests" */;
+			buildPhases = (
+				8220535A277CAED500019724 /* Sources */,
+				8220535B277CAED500019724 /* Frameworks */,
+				8220535C277CAED500019724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82205360277CAED500019724 /* PBXTargetDependency */,
+			);
+			name = "Mevron TestUITests";
+			productName = "Mevron TestUITests";
+			productReference = 8220535E277CAED500019724 /* Mevron TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82205333277CAED200019724 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					8220533A277CAED200019724 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					82205353277CAED500019724 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 8220533A277CAED200019724;
+					};
+					8220535D277CAED500019724 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 8220533A277CAED200019724;
+					};
+				};
+			};
+			buildConfigurationList = 82205336277CAED200019724 /* Build configuration list for PBXProject "Mevron Test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82205332277CAED200019724;
+			productRefGroup = 8220533C277CAED200019724 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8220533A277CAED200019724 /* Mevron Test */,
+				82205353277CAED500019724 /* Mevron TestTests */,
+				8220535D277CAED500019724 /* Mevron TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82205339277CAED200019724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8220534E277CAED500019724 /* LaunchScreen.storyboard in Resources */,
+				8220534B277CAED500019724 /* Assets.xcassets in Resources */,
+				82205380277CB05600019724 /* SpaceGrotesk-Regular.ttf in Resources */,
+				8220537F277CB05600019724 /* SpaceGrotesk-Medium.ttf in Resources */,
+				82205381277CB05600019724 /* SpaceGrotesk-SemiBold.ttf in Resources */,
+				8220537E277CB05600019724 /* SpaceGrotesk-Bold.ttf in Resources */,
+				8220537D277CB05600019724 /* SpaceGrotesk-Light.ttf in Resources */,
+				82205346277CAED200019724 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82205352277CAED500019724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8220535C277CAED500019724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82205337277CAED200019724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82205385277CB58600019724 /* Extensions.swift in Sources */,
+				82205343277CAED200019724 /* ViewController.swift in Sources */,
+				8220533F277CAED200019724 /* AppDelegate.swift in Sources */,
+				82205349277CAED200019724 /* Mevron_Test.xcdatamodeld in Sources */,
+				82205341277CAED200019724 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82205350277CAED500019724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82205359277CAED500019724 /* Mevron_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8220535A277CAED500019724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82205363277CAED500019724 /* Mevron_TestUITests.swift in Sources */,
+				82205365277CAED500019724 /* Mevron_TestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82205356277CAED500019724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8220533A277CAED200019724 /* Mevron Test */;
+			targetProxy = 82205355277CAED500019724 /* PBXContainerItemProxy */;
+		};
+		82205360277CAED500019724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8220533A277CAED200019724 /* Mevron Test */;
+			targetProxy = 8220535F277CAED500019724 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82205344277CAED200019724 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82205345277CAED200019724 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8220534C277CAED500019724 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8220534D277CAED500019724 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82205366277CAED500019724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82205367277CAED500019724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82205369277CAED500019724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mevron Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "promise.Mevron-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8220536A277CAED500019724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mevron Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "promise.Mevron-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8220536C277CAED500019724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "promise.Mevron-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mevron Test.app/Mevron Test";
+			};
+			name = Debug;
+		};
+		8220536D277CAED500019724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "promise.Mevron-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mevron Test.app/Mevron Test";
+			};
+			name = Release;
+		};
+		8220536F277CAED500019724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "promise.Mevron-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mevron Test";
+			};
+			name = Debug;
+		};
+		82205370277CAED500019724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "promise.Mevron-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mevron Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82205336277CAED200019724 /* Build configuration list for PBXProject "Mevron Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82205366277CAED500019724 /* Debug */,
+				82205367277CAED500019724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82205368277CAED500019724 /* Build configuration list for PBXNativeTarget "Mevron Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82205369277CAED500019724 /* Debug */,
+				8220536A277CAED500019724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8220536B277CAED500019724 /* Build configuration list for PBXNativeTarget "Mevron TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8220536C277CAED500019724 /* Debug */,
+				8220536D277CAED500019724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8220536E277CAED500019724 /* Build configuration list for PBXNativeTarget "Mevron TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8220536F277CAED500019724 /* Debug */,
+				82205370277CAED500019724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		82205347277CAED200019724 /* Mevron_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				82205348277CAED200019724 /* Mevron_Test.xcdatamodel */,
+			);
+			currentVersion = 82205348277CAED200019724 /* Mevron_Test.xcdatamodel */;
+			path = Mevron_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 82205333277CAED200019724 /* Project object */;
+}
